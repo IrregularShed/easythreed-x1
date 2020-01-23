@@ -1,0 +1,24 @@
+"C:\Users\Steve\Desktop\3d\EasyWare for Windows\EasyWare\Engine\Windows\CuraEngine.exe"  -p -v  -s "layerThickness=100" -s "initialLayerThickness=300" -s "filamentDiameter=1750" -s "filamentFlow=100" -s "extrusionWidth=400" -s "layer0extrusionWidth=400" -s "insetCount=2" -s "downSkinCount=12" -s "upSkinCount=12" -s "infillOverlap=15" -s "perimeterBeforeInfill=0" -s "initialSpeedupLayers=4" -s "initialLayerSpeed=20" -s "printSpeed=20" -s "infillSpeed=20" -s "inset0Speed=20" -s "insetXSpeed=20" -s "skinSpeed=20" -s "moveSpeed=50" -s "fanSpeedMin=100" -s "fanSpeedMax=100" -s "supportAngle=60" -s "supportEverywhere=1" -s "supportLineDistance=2666" -s "supportXYDistance=700" -s "supportZDistance=200" -s "supportExtruder=-1" -s "retractionAmount=4000" -s "retractionSpeed=50" -s "retractionMinimalDistance=1500" -s "retractionAmountExtruderSwitch=16500" -s "retractionZHop=0" -s "minimalExtrusionBeforeRetraction=20" -s "minimalLayerTime=0" -s "minimalFeedrate=10" -s "coolHeadLift=0" -s "fanFullOnLayerNr=0" -s "enableCombing=1" -s "supportType=1" -s "sparseInfillLineDistance=2666" -s "skirtDistance=0" -s "skirtLineCount=0" -s "raftMargin=5000" -s "raftLineSpacing=3000" -s "raftBaseThickness=300" -s "raftBaseLinewidth=1000" -s "raftInterfaceThickness=270" -s "raftInterfaceLinewidth=400" -s "raftInterfaceLineSpacing=800" -s "raftAirGapLayer0=320" -s "raftAirGap=100" -s "raftBaseSpeed=20" -s "raftFanSpeed=0" -s "raftSurfaceThickness=270" -s "raftSurfaceLinewidth=400" -s "raftSurfaceLineSpacing=400" -s "raftSurfaceLayers=2" -s "raftSurfaceSpeed=20" -s "posx=50000" -s "posy=50000" -s "startCode=;Print time: {print_time}
+M140 S0
+M190 S0
+M104 S180
+M109 S180
+G21
+G90
+M82
+M106 S0
+G28 X0 Y0
+G28 Z0
+G92 Z0
+G1 Z15.0 F900
+G92 E0
+G1 F200 E10
+G92 E0
+M117 Printing" -s "endCode=M140 S0
+M104 S0
+G91
+G1 E-1 F300
+G28 X0 Y0
+M84
+G90
+" -o "C:\Users\Steve\AppData\Local\Temp\tmpGCode.gcode" "C:\Users\Steve\AppData\Local\Temp\tmp16e1f35b.stl"
