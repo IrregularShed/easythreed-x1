@@ -1,0 +1,24 @@
+Start
+echo:Marlin 1.1.0-RC3
+echo: Last Updated: 2015-12-01 12:00 | Author: (none, default config)
+Compiled: Jan  2 2020
+echo: Free Memory: 12015  PlannerBufferBytes: 1232
+echo:Hardcoded Default Settings Loaded
+echo:Steps per unit:
+echo:  M92 X467.00 Y467.00 Z1160.00 E1040.00
+echo:Maximum feedrates (mm/s):
+echo:  M203 X40.00 Y40.00 Z10.00 E80.00
+echo:Maximum Acceleration (mm/s2):
+echo:  M201 X1000 Y1000 Z200 E1000
+echo:Accelerations: P=printing, R=retract and T=travel
+echo:  M204 P300.00 R300.00 T300.00
+echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+echo:  M205 S0.00 T0.00 B20000 X2.00 Z0.40 E1.00
+echo:Home offset (mm):
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:PID settings:
+echo:  M301 P22.20 I1.08 D114.00 C100.00 L20
+echo:Filament settings: Disabled
+echo:  M200 D3.00
+echo:  M200 D0
+echo:SD card ok
